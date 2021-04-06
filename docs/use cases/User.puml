@@ -1,0 +1,12 @@
+@startuml
+actor "Користувач" as User
+
+usecase "Реєстрація" as SU1
+usecase "Проходження обраного тесту/завдання" as SU2
+usecase "Отримання результату з виправленими помилками (за їх наявності)" as SU3
+
+
+User-d-> SU1
+User-d-> SU2
+User-d-> SU3
+@enduml
