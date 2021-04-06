@@ -1,0 +1,18 @@
+@startuml
+actor "Лінгвіст" as Linguist
+
+usecase "Створення тестів/ігор/завдань" as SU1
+usecase "Відправка згенерованих завдань адміністратору" as SU2
+usecase "Аналіз виконаних користувачем завдань" as SU3
+usecase "Відправка результатів адміністратору" as SU4
+
+usecase "Перевірка правильності виконання завдання" as SG1
+usecase "Виправлення помилок" as SG2
+
+Linguist-d-> SU1
+Linguist-d-> SU2
+Linguist-d-> SU3
+Linguist-d-> SU4
+SU3-d->SG1
+SU3-d->SG2
+@enduml
