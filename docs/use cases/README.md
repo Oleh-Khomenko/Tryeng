@@ -43,7 +43,7 @@ EХ.2 Повторно введений пароль не збігається
 
 Сценарій №2
 
-ID: UC.3
+ID: UC.2
 
 НАЗВА: Авторизація
 
@@ -62,12 +62,12 @@ EХ.4 Невірний логін або пароль
 
 ОСНОВНИЙ СЦЕНАРІЙ:
 
-![usecase]()
+![usecase](http://www.plantuml.com/plantuml/png/hLN1JXDH5DtFLzpWLckfcXWAX4HPkDV4BKWB9DYQKXSQ5fHAtJHW22c92eZym3YqKg2T_iAvV-IvlB4T2fNHE4cJz-xSTywzvvutdLajpvNARr-lU2kvV5cMSdCBkPBdIVHCvek5ihmghXHBK-bqMbQNt-UcnXzFJyvFFtiwCNb_VbfUFCaaISS-V9mYWE-EuHC2tK2ewsWpxcjD6xejE7SXhUY6LYrTFy9FH71icLf15ssYj2EQpzVnxefMN0GjTE2d4i4VeaMW5fg4wI14y2SAWHzlpz8PiShE1C4LVcqael_6t5F2NsYTvtpTk4wEO0IzLdMNjTMPjFsFz3icAictA79N6mx2sdM3sxkivbOacNtvGEY4bg37qdmJqJgYCg5m4vY-_4L2NI34YJRGJGByK0mu4MuFFhD2o_0IUHq7vYkROWH1zMg6Pq0iy6pGVgwmSEKMhTraZxK-wUNrw-_wYmbhXaEsOpZdQbUCJBYsCdeur-gmnw99PEDendyKz_hQA2xwkcAYmRZq0morOoHDohGzakks7kCiUmJfEH5rYoos8M5Bnl3bzwJ7nDpDoE5WHcFPECeEqvhzCRCsGpeTGDjOj1fh8O4WGsNQM3SHaiOyNeyPKH08VjYNJ1icZS_SBhCs1oHIA9PpKbfUN2hBdNn-Zi_0OdPZlnBi9o7RfbFy5KtyA3NUZvYJ3EkcYVM_HW77iEuq678-NrIi-hZTjxBY_PyoCtzN9ash5QUcCx9Md9jCL3FpY0-_a_Ksamsp7Z21YJPy4wQ9C3hJ4zkG705ZkxetL0VQsTZDBBw9w9rA-IAxB7dFI-zc2uiUzl4TnpWMbdM8cX2WanBKKZZIXck6s7LRuGIXnxGsNmHoJpBfpBXdiaM8Crpp7_WN)
 
 
 Сценарій №3
 
-ID: UC.5
+ID: UC.3
 
 НАЗВА: Відправка згенерованих завдань
 
@@ -86,7 +86,7 @@ ID: UC.5
 
 Сценарій №4 
 
-ID: UC.5
+ID: UC.4
 
 НАЗВА: Проходження завдань користувачем
 
