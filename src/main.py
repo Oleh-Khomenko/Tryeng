@@ -1,11 +1,17 @@
-from flask import Flask, render_template
+from flask import Flask, jsonify, request
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
 
-@app.route('/')
-def index():
-    return render_template('index.html')
+@app.route('/login', methods=['POST'])
+def login():
+    data = request.get_json(force=True)
+    if data['login'] and data['password']:
+        return {'data': 'ok'}
+    return {'data': 'fail'}
 
 
-app.run()
+if __name__ == '__main__':
+    app.run(debug=True)
