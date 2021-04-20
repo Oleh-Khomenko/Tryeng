@@ -33,13 +33,13 @@ left header
         : Знаходить логін в базі данних;
          note right #ffaaaa
         <b> Можлива
-        <b> EX5.1
+        <b> EX3
         end note
         
         : Перевіряє правильність паролю; 
         note right #ffaaaa
         <b> Можлива
-        <b> EX5.2
+        <b> EX4
         end note
         
         : Переносить на сторінку користувача;
@@ -52,6 +52,6 @@ left header
 right footer
 TryEng
 НТУУ КПІ ім. І.Сікорського
-Киів - 2021
+Київ - 2021
 end footer
 @enduml
