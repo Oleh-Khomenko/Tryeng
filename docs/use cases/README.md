@@ -69,20 +69,21 @@ EХ.4 Невірний логін або пароль
 
 ID: UC.3
 
-НАЗВА: Відправка згенерованих завдань
+НАЗВА: Відправка завдань
 
 УЧАСНИКИ: Лінгвіст, система
 
-ПЕРЕДУМОВИ: Користувач вибрав завдання
+ПЕРЕДУМОВИ: Користувач обрав завдання
 
 РЕЗУЛЬТАТ: Завдання передається користувачеві
 
 ВИКЛЮЧНІ СИТУАЦІЇ:
-Відсутні
+
+EХ.5 Користувач не отримав задання
 
 ОСНОВНИЙ СЦЕНАРІЙ:
 
-![usecase]()
+![usecase](http://www.plantuml.com/plantuml/png/ZLH1JnDX4BtlhvZ4gzQ28J5G6XBjmRicNejiWQHspR8UD3sq9IcN1XCaRQ82OkDzBLHAwPQ_yBv_v9jkk-o6IdTFmpSpxysyDtHZpokwtiVtPQjibppPiOjRjcjPClro9QVYoJkdxBZhsMnMzdO_s-jBp_EvpVohbwkvfvjvUVFYMPfodC375NhmmpOScJOkSMjgyFawX2zCC-IZZy2qKe5spG5yKqU00I46K-ZlX0vmWPvfcxffF1PM33H27oFugP3Fq3Srrb-QVVQCqOlGls7Cp0IFEIva3eG5Vy9D4bjmZo-fs7wIwOfeDwPb6aHiJBawIIp1xMmi5XsR1ilh-ZoyFnEBk7ygzYDLZzo7x0fCEvIBG8HfKiBEP9Y5I5B0xypAV_G9q1U-DpI3KIHKJAPKavwgr-h6nF5h8KcJYmOagT7qwxj9xSfMufghy-QgHgIJVuFehoXO5Poe7Tg6eMgUs48JzmnVIy9KSHu_lkfSag-wX5fhzitXpDO7a5Vdd4QWSgfrk85FbCN7iRP8cJZVwMnjZdZym6XISJnRtDtj7KyUbKf5VdVMwat_m1X_EUD0cHAfmjlCIlIW1YfKJAzO6DdcV0YfhP2nvB35jLwxdmgLROlc_K8NNJtACpJ5j37A29ePd3ESwCAbMnhX0cEBPGFJGK-Uo79sUSdY33F43SRycVm7)
 
 Сценарій №4 
 
@@ -92,21 +93,21 @@ ID: UC.4
 
 УЧАСНИКИ: Користувач, система
 
-ПЕРЕДУМОВИ: Вхід у систему
+ПЕРЕДУМОВИ: Користувач отримав завдання
 
-РЕЗУЛЬТАТ: Збір інформації з тесту
+РЕЗУЛЬТАТ: Збір інформації
 
 ВИКЛЮЧНІ СИТУАЦІЇ:
 
-EX.5 Користувач не відповів на всі завдання
+EX.6 Користувач не відповів на завдання
 
-EX.6 Користувач не відправив результат роботи
+EX.7 Користувач не надіслав результат роботи
 
 
 
 ОСНОВНИЙ СЦЕНАРІЙ:
 
-![usecase]()
+![usecase](http://www.plantuml.com/plantuml/png/hPNFRX9H5CRtynGtSQkLDiQQbf8cseLxJTnIExHDa373kD2meA3K1R59Oo0n5goym7G4E_nXU8Nllf7V6IWmKEcOoEhEwJc_x_mvztOtxwHjvzsRh94rCuuwCjC7fcqOQl9BPgoServRMSlUIIGIAd_ymTnPVv9AxgUUFzjAFjnFgPTF7yLnnmLSNCE3Emv3KnSHw4y8qCPlT334K9yfkhZmQ7BvMLNe8Q2VhqzqIPSbMf_ITn1BiKLVLv-Gx9FZJtI_BHFlAtg55c73ZKLleaDE1srI1WZWhL9GD9N4A7XuaJAbxbYAFwXsJM9VLtM9rD94huuhNTD5fMj4VHHnKT4L6kknmEVI86A_w5CIQc4t9FSRIAXp9qdjlLfx_9VgX-WeU4omZH62yEI9rVttJeZCvYePKZcK6ele2rhfucBVn1JWIcO2tuYrxMZ88adguJfr5OKhihNa5LbDTzOZCtSGkKU5st8jJ4N32pZzcXws52uaLmb3ZwUl2gCmxwuObUog0BUZeGLSpczouLRmUJW8eKdh-_gCyCKvRA_EFGfii9c-u0YQSdrfE57bnSctTNLxPPqzwJJTUn8x2YDAyEI-pRyLCuRAMOwfxEF38qVTosJI_CrcAZVaEmB6zU5B0P4_oSvE3J8vGSNi5VFHd-57nn5_2esR5q6NoRnZIydz7xLkBjSwbzjocdd7UZkMDiQI6Oinjl72Vh-NEpGukfzeeINNiOcAl423DONA6Yvv3DzkTg4g9_n2OD3DrtLuwe7QI6oi6vB4XBZBC_yD_G40)
 
 
 Сценарій №5
@@ -127,14 +128,14 @@ ID: UC.5
 
 ОСНОВНИЙ СЦЕНАРІЙ:
 
-![usecase]()
+![usecase](http://www.plantuml.com/plantuml/png/ZLJDQXDX5DtFKzob2wrfGP3OXeAwSAyFqDgaBSICfED2oQB9IA8GZ9IIWA2rvWN6CQ7J_4nVuTmtybnd62ObbPb5-oNVlVVyt3FPFV7scjwxDtMdNgrvSbJTEwWs7SUHzDckkGrFNhjrjxbJAfNavFX3TMVpSMLxl_BYMNdxuNv5NZrzLAGStn7W2Y62f0qNcEeffWXroFyp1CBhW0KJ_brglz3GiVOGQ1jBH1mHfQE_SiP2XrXoT5ix71ze1x6UtXVMHlOTWHS8Yc1aH2VgioT6cE5GaWuGPZXziKlCMBGq4OGS2NjZ_4PCpAWGtazYNH5hhdtsa7cArYNEHrDXpBLBp87W9k-Y3lJSQ6ZRhaZ1xcEMHvXZLX3-p1GG_8lsJ5ZYM4Vz57DK5WF3X22-Tgp4w1KQ_SCs1NFGzdNDqTh5r8YI-n3NvMnIjN6GXL7ujExUQIk3_fVbx5DsA0k1hI7Y05_FqvoPSVh9uDNFBKdz9_dECvEA6zvRozmSNicG3ZEZL-AS7vCgkCmdhxMMvyNjRQuG4mCBCRCNoOIiM_4z7H3yCsAhZCrd5fXspTQLrsSHjbN2seC4xrRw1C5TrbDamVMiYeoJ11dlr5BCh3OnYE0XktimRQP_BQd_lsXvytdCHSHzczmvpUF38qzghkinP2-Rxvyt3XtQyGjZZ0NVIBDBmx7O47GtSAd3X2CPzks4FuWTbaKwGYWFPAkqjUbORDE9kpppT_Kl)
 
 
 Сценарій №6
 
 ID: UC.6
 
-НАЗВА: Адміністратор передає результати роботи користувачеві
+НАЗВА: Користувач отримує результат
 
 УЧАСНИКИ: Адміністратор, Користувач
 
@@ -144,12 +145,12 @@ ID: UC.6
 
 ВИКЛЮЧНІ СИТУАЦІЇ:
 
-EX.7 Користувач хоче звернутись до адміністратора із питанням по тесту
+EX.8 Користувач хоче звернутись до адміністратора із питанням по тесту
 
-EX.8 Користувач не отримав результат
+EX.9 Користувач не отримав результат
 
 ОСНОВНИЙ СЦЕНАРІЙ:
 
 
-![usecase]()
+![usecase](http://www.plantuml.com/plantuml/png/jLLDRjDW4Dtx52En0Gb2sWNgJnfLWYxOWyGsfKvRASJ8DGjG5saY4f0YMbMeaH1jWLp0X9YuIUnUuSsDcFaSkGPSAUB7g_5uPjvxyvEixtaLrtlnh6RLxAf7EtPbotOjYsPFgUhKFNhgr1nthLWiqjxkAtjjOQbSsYm_VB1IkhjPfiVtxyqJZbFu6640Fqd31yJSGCW7tEIM-hb3ucgg4rDkyNiICy18lawuoqs9QCw5rEUEn1uWGeWnmXdU4OPIzWGHdnZCXjPJ3hTpkSo5T8x0S1nArXGn1YcQgEL335AqReuORiq5ykdNlBzfeBfYVDKuX2Jj696aZiriV4IQANvS8bO34_D9h9kYPinl4MjuZCW49V22r5ITj-PISso6Ck5ttD4aaZc5He3FRUbLBn6tyQImbA-GNoEMr81qcKpx8qD0exg4eJBqhnir_9daImKrWYCHDZM2IJn1WlLlbIpdAn7m83Cm-1ZywSQVcMsN_JCJl231QIEG5vyR8lZ2K36LxFhMJqU-V_rTxAVGvZSYVLiX74lyqCnVI0lNmznTMqrJ4gYyBbo1PEkVvMnnVcMgEvvDxkxsZaStgjMAF5STqolvY1ZVCK6eUDbFPiTIX_J5bBAoD8wqWu8gA_EVYIp_HYJBemS_sNL-epmoDyojLIip9kTvGiXAU5GTAUHQZzoN6_Lj2wVuWZxwketdQ9F8cXO8xG8-YpdMsUWDgOLlY2q92xc70TsXnUBYWgNCPXNNnPR_Z1y0)
 
