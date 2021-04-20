@@ -26,7 +26,7 @@ ID: UC.1
 
 ПЕРЕДУМОВИ: Відстуні
 
-РЕЗУЛЬТАТ: Неактивований обліковий запис
+РЕЗУЛЬТАТ: Створений обліковий запис
 
 ВИКЛЮЧНІ СИТУАЦІЇ:
 
@@ -34,35 +34,14 @@ EХ.1 Обліковий запис зареєстрований на введн
 
 EХ.2 Повторно введений пароль не збігається
 
-EХ.3 Не прийшов лист на пошту  
 
 
 ОСНОВНИЙ СЦЕНАРІЙ:
 
-![usecase](http://www.plantuml.com/plantuml/png/fPDFJi9G4CRtdE85jyP4tLbZs7W7jnX1JHGCrbqN22Iw83On11AZCTpWYHHhIyiLPcxartbGAOAIsEGbVVFdDzDlfeLhkrYpRoulSWuzKSnrylcM6zoa0Mc-St9g-aXSUjjJz09_8ucc06yTHH5fXVU8OffGm4sLfnvf43tk2BC-fKeMktbBS0xrJKtoQ4pQMQX1Gw5pIveR0mjBoAwY3pWdA3P0IGydOjSGbt-9cWS_mXW3v2EWhP0UuWH9ZnGB2cN0vli4a2R2f2KYvFPcvgPC9zoGmf30-bMgzLLghw7IAtAHZ_9TPBiPjRxxg5JjaggTdvxPQgDSBk99NVl71ugUqT48ElY9D1dNuT7Mzg9X9pMKAYV2dk-eZpv1GJSFPZCyqecy1ewZOVFfK-7o1lsw58WPfjbSyR7MQYGo8XecOnUTMaBGHlu5ACuxnNDOYF9Znp0Qdq8pdD08BGkzR0lKR0Evnpq4eD1GciCKu1bbb_7Vqk-kLbfU_lnlgrTMhe1S_EHV)
+![usecase]()
+
 
 Сценарій №2
-
-ID: UC.2
-
-НАЗВА: Активація облікового запису
-
-УЧАСНИКИ: Гість, Система
-
-ПЕРЕДУМОВИ: Створений неактивований обліковий запис
-
-РЕЗУЛЬТАТ: Активований обліковий запис
-
-ВИКЛЮЧНІ СИТУАЦІЇ:
-
-Відсутні
-
-
-ОСНОВНИЙ СЦЕНАРІЙ:
-
-![usecase](http://www.plantuml.com/plantuml/png/XP11Ze9044NtdABFCMouoYGpknarYhjU2CJemaHZZ0iJOxn1G-o88725NpUoYZO4Lx0gglz_lwg2MVWz3UV_Vvx62JKja5D4CIN8O6YbFVN-MbttzwLmWMMrfILgt92pPwDGmIWqp5aBm-_hztHaNI49BVkWKBgm3zcPdsBfet2Y3XcniOJXHaLRvz6uEWGidZ2w3zfnLYnPb0YcHegIHoYuohZzKBWph16_FxXNfcG0WRWy1-09aJApWkrlqHQ3vnnFV2_u7VtmxLy0)
-
-Сценарій №3
 
 ID: UC.3
 
@@ -76,17 +55,17 @@ ID: UC.3
 
 ВИКЛЮЧНІ СИТУАЦІЇ:
 
-EХ.4 Відсутній обліковий запис
+EХ.3 Відсутній обліковий запис
 
-EХ.5 Невірний логін або пароль 
+EХ.4 Невірний логін або пароль 
 
 
 ОСНОВНИЙ СЦЕНАРІЙ:
 
-![usecase](http://www.plantuml.com/plantuml/png/ZPBFIiD04CRlUOgXtZtfnOZquZjuhTYgeAtKUCiXjegNGg183gA8-08nDfh-oUOLldaZFrQRcbB_B0HcPsP_-tsPhPzxZQvtSNhY-BY3qG2PNcfF-qWGwutloDUoVULkI_30UW_ineJHhI17B8np61IOQ5zg6EgrHXZLN7lGnzCd7IbcYFqb6aQMerTMnem0PgOQ2jvPB8XD24_vvHhEYQiqotVma4b3KCQ6WM3ApIirvQAH41hpjE4j0_TNRrLRpqY862jR_c7j4Qa6pFEC1XfMB2vkRNUyfdIF3uyyMMkr6bnbQNj_Ht0FWpVApq0_bTBktlh6ScApJ3JR1vQzIX4dXe9HJ2P_T3b4WnVk8xesh6GOpqT0Yml5FmH_lgFEcUlKAOkFxWC0)
+![usecase]()
 
 
-Сценарій №4
+Сценарій №3
 
 ID: UC.5
 
@@ -119,8 +98,8 @@ ID: UC.5
 
 ВИКЛЮЧНІ СИТУАЦІЇ:
 
-EX.6 Користувач не відповів на всі завдання
-EX.7 Користувач не відправив результат роботи
+EX.5 Користувач не відповів на всі завдання
+EX.6 Користувач не відправив результат роботи
 
 
 
@@ -164,8 +143,8 @@ ID: UC.6
 
 ВИКЛЮЧНІ СИТУАЦІЇ:
 
-EX.8 Користувач хоче звернутись до адміністратора із питанням по тесту
-EX.9 Користувач не отримав результат
+EX.7 Користувач хоче звернутись до адміністратора із питанням по тесту
+EX.8 Користувач не отримав результат
 
 ОСНОВНИЙ СЦЕНАРІЙ:
 
