@@ -7,7 +7,7 @@ left header
         <font color=000 size=18><b>Передумови:</b> Користувач обрав завдання
         <font color=000 size=18><b>Результат:</b> Завдання передається користувачеві
         <font color=000 size=18><b>Виключні ситуації:</b>
-        <font color=000 size=18> EХ.4 Користувач не отримав задання
+        <font color=000 size=18> EХ.5 Користувач не отримав задання
 
         <font color=000 size=18><b>Основний сценарій:</b>
     end header
@@ -26,7 +26,7 @@ left header
         : Користувач отримує завдання;
          note right #ffaaaa
         <b> Можлива
-        <b> EX4
+        <b> EX.5
         end note
         
  
