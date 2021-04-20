@@ -1,0 +1,10 @@
+@startuml
+actor "Гість" as Guest
+
+usecase "Рєєстрація" as SG1
+usecase "Інформація\n про сервіс" as SG2 #eeffee
+
+Guest -u-> SG1
+Guest -u-> SG2
+
+@enduml
