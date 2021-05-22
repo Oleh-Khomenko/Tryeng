@@ -1,6 +1,10 @@
-import requests
+from database import db_connect
 
-BASE = 'http://127.0.0.1:5000/'
+conn = db_connect()
 
-response = requests.get(BASE)
-print(response.json())
+with conn:
+    with conn.cursor() as cur:
+        cur.execute("select * from users")
+
+        print(list(map(list, cur)))
+

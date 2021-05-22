@@ -1,0 +1,24 @@
+<ul class="list container-fluid text-center">
+  <li class="list-el" *ngFor="let test of tests; let i = index">
+    <h1>{{i + 1}}. {{test}}</h1>
+    <div class="radio-block" *ngFor="let item of items[i]; let j = index">
+      <label class="text-left">
+        <input [disabled]="correctAnswers.correct" type="radio" name="{{i}}" value="{{i}}{{j}}"
+               (change)="radioChangeHandler($event)">
+        <span class="radio-text">
+          {{item}}
+        </span>
+      </label>
+    </div>
+  </li>
+  <li class="container-fluid text-center list-el" style="height: 10vh">
+    <button [disabled]="correctAnswers.correct" class="send-btn" (click)="sendAnswers()" href="#correctAnswers">
+      Перевірити
+    </button>
+  </li>
+  <li class="list-el" *ngIf="correctAnswers.correct">
+    <p style="font-size: 30px; padding-bottom: 30px">
+      Правильних відповідей {{correctAnswers.correct}} / {{answers.length}}
+    </p>
+  </li>
+</ul>

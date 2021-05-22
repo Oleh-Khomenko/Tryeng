@@ -1,0 +1,40 @@
+.test-btn {
+
+}
+
+.test-href {
+  text-decoration: none;
+  color: #4caf50;
+}
+
+.test-href:hover {
+
+}
+
+.test-list {
+  margin-left: 70px;
+}
+
+.href-container {
+  display: flex;
+}
+
+.nav-href {
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: snow;
+  border: none;
+  outline: none;
+  background: none;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.nav-href:hover {
+  background-color: snow;
+  border: 2px solid #dae8e0;
+  color: #bad1c4;
+  text-decoration: none;
+}
+

@@ -1,0 +1,89 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tryeng</title>
+
+</head>
+<body>
+<nav class="navbar navbar-expand fixed-top" style="background: #bad1c4;">
+  <h1 class="col-6 text-left display-5">
+    <a href="#" style="text-decoration: none; color: snow">Tryeng</a>
+  </h1>
+  <div class="col-6 nav-items text-right">
+    <a *ngIf="isAuthorized()" class="col-3 nav-href" routerLink="/tests-menu">Тести</a>
+    <a class="col-3 nav-href" href="#about">Про нас</a>
+    <a class="col-3 nav-href" href="#question">Задати питання</a>
+    <a *ngIf="!isAuthorized()" class="col-3 nav-href" routerLink="/login" style="color: #4caf50">Маєте акаунт?</a>
+    <a *ngIf="isAuthorized()" class="col-3 nav-href" (click)="logOut()" style="color: #4caf50">Вийти</a>
+  </div>
+</nav>
+<div class="container-fluid text-center" style="background: #a1c9b4; height: 100vh; margin-top: 9vh">
+  <h1 style="color: cadetblue; padding-top: 20px">LOGO HERE</h1>
+  <h1 class="display-1" style="color: snow; margin-top: 50px">
+    <strong>Навчайтесь англійської<br>
+      онлайн</strong>
+  </h1>
+  <p style="color: cadetblue; font-size: 25px; margin-top: 50px">
+    Отримайте доступ до різноманітних тестів - швидко і зручно.
+  </p>
+  <button class="try-btn" routerLink="/register">Спробувати безкоштовно</button>
+</div>
+
+<a name="about"></a>
+<div class="container-fluid text-center" style="background: snow; height: 100vh">
+  <h1 class="display-5" style="padding-top: 80px">
+    <strong>
+      Ми підготували тести, щоб Ви мали змогу<br>
+      перевірити свої знання
+    </strong>
+  </h1>
+  <p style="font-size: large; margin-top: 50px">
+    Це чудовий спосіб розширити<br>
+    словниковий запас і здобути нові навички
+  </p>
+  <div class="container-fluid row" style="margin-top: 140px">
+    <div class="col-4">
+      <i class="fa-5x fa fa-clock-o" style="color: cadetblue"></i>
+      <h1 class="display-5">Час</h1>
+      <p>
+        Ви маєте змогу проходити тести<br>
+        у будь який час.
+      </p>
+    </div>
+    <div class="col-4">
+      <i class="fa-5x fa fa-location-arrow" style="color: cadetblue"></i>
+      <h1 class="display-5">Місце</h1>
+      <p>
+        Навчайтеся з будь яких<br>
+        місць - вдома, чи у кафе.
+      </p>
+    </div>
+    <div class="col-4">
+      <i class="fa-5x fa fa-line-chart" style="color: cadetblue"></i>
+      <h1 class="display-5">Ефективність</h1>
+      <p>
+        Наше завдання - зробити так,<br>
+        щоб Ви якомога швидше вивчили мову.
+      </p>
+    </div>
+  </div>
+</div>
+<a name="question"></a>
+<div class="container-fluid text-center" style="background: #b1feda; height: 33vh">
+  <p style="padding-top: 30px"><strong>TRYENG</strong></p>
+  <h1 class="display-4" style="padding-top: 50px"><strong>Задайте питання</strong></h1>
+</div>
+<div class="container-fluid text-center" style="background: snow; height: 59vh">
+  <div class="container-fluid text-left" style="width: 60%">
+    <p style="padding-top: 40px; margin-bottom: 3px">E-mail</p>
+    <input class="feedback-email" type="email" placeholder="example@site.com" [(ngModel)]="feedback_email">
+    <p style="padding-top: 20px">Ваше питання</p>
+    <input class="feedback-text" type="text" [(ngModel)]="feedback_text">
+  </div>
+  <p *ngIf="sendState.state == 1" style="color: lawngreen; margin-bottom: -40px; margin-top: 10px">{{sendState.message}}</p>
+  <p *ngIf="sendState.state == 2" style="color: red; margin-bottom: -40px; margin-top: 10px">{{sendState.message}}</p>
+  <button class="send-feedback-btn" (click)="feedback_send()">Надіслати</button>
+</div>
+</body>
+</html>

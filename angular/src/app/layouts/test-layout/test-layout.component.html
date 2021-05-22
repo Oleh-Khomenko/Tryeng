@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tryeng</title>
+</head>
+<body>
+<nav class="navbar navbar-expand fixed-top" style="background: #bad1c4;">
+  <h1 class="col-6 text-left display-5">
+    <a href="#" style="text-decoration: none; color: snow">Tryeng</a>
+  </h1>
+  <div class="col-6 nav-items text-right">
+    <a class="col-2 nav-href" routerLink="/tests-menu">Повернутися до вибору тестів</a>
+    <a class="col-2 nav-href" (click)="logOut()" style="color: #4caf50">Вийти</a>
+  </div>
+</nav>
+<div style="margin-top: 9vh">
+  <router-outlet></router-outlet>
+</div>
+</body>
+</html>
+

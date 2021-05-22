@@ -1,0 +1,28 @@
+.register-form {
+  width: 400px;
+  position: absolute;
+  border-radius: 24px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #bad1c4;
+}
+
+.inputs {
+  margin-top: 20px;
+  padding-left: 3px;
+  background: #bad1c4;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid green;
+}
+
+.register-btn {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.register-btn:disabled {
+  color: black;
+  background: #dae8e0;
+}

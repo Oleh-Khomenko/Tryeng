@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tests</title>
+</head>
+<body>
+<nav class="navbar navbar-expand sticky-top" style="background: #bad1c4;">
+  <h1 class="col-3 text-left display-5">
+    <a href="#" style="text-decoration: none; color: snow">Tryeng</a>
+  </h1>
+  <div class="col-5 text-center">
+    <h1 class="display-4" style="color: snow"><strong>Тести з англійської</strong></h1>
+  </div>
+  <div class="col-4 nav-items text-right">
+    <a class="col-2 nav-href" routerLink="/">Повернутися до головної сторінки</a>
+    <a class="col-2 nav-href" (click)="logOut()" style="color: #4caf50">Вийти</a>
+  </div>
+</nav>
+<div class="container-fluid row" style="height: 88vh; margin: 0; background: #dae8e0">
+  <div class="container text-left col" style="margin-left: 150px">
+    <h1 class="display-3" style="color: cadetblue; padding-top: 30px">Grammar</h1>
+    <ul class="test-list">
+      <li style="font-size: 20px">
+        Тест: <a routerLink="/tests/grammar-present-simple-test" class="test-href">Present Simple</a>
+      </li>
+      <li style="font-size: 20px">
+        Тест: <a routerLink="/tests/grammar-past-simple-test" class="test-href">Past Simple</a>
+      </li>
+      <li style="font-size: 20px">Тест: <a routerLink="/tests/grammar-future-simple-test" class="test-href">Future
+        Simple</a></li>
+    </ul>
+    <h1 class="display-3" style="color: cadetblue; padding-top: 30px">Articles</h1>
+    <ul class="test-list">
+      <li style="font-size: 20px">Тест: <a routerLink="/tests/articles-test" class="test-href">Articles</a></li>
+    </ul>
+    <h1 class="display-3" style="color: cadetblue; padding-top: 30px">Vocabulary</h1>
+    <ul class="test-list">
+      <li style="font-size: 20px">Тест: <a routerLink="/tests/vocabulary-test" class="test-href">Common words</a></li>
+    </ul>
+  </div>
+  <div class="container text-center col" style="margin-left: -300px">
+    <img src="https://i.pinimg.com/originals/e6/20/f9/e620f9d7b7d421fd7b9673ee4b7a0239.jpg"
+         width="480px"
+         height="480px"
+         style="margin-top: 8vh">
+  </div>
+</div>
+</body>
+</html>
