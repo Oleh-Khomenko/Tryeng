@@ -80,8 +80,8 @@ def feedback():
 
         return {'status': 'ok'}
     except Exception as e:
-        return {'exception': 'fail'}
-
+        print(e)
+        return {'status': 'fail'}
 
 
 if __name__ == '__main__':
