@@ -35,5 +35,6 @@
 ![](https://github.com/Oleh-Khomenko/Tryeng/blob/main/docs/images/CF5C610F-7F66-46FF-B69B-791E97564BC3.png)
     8.3. Перевірка тестових завдань.
 ### 9.	Написання юніт-тестів для запитів в БД.
+![](https://github.com/Oleh-Khomenko/Tryeng/blob/main/docs/images/77312545-6F72-44AD-BE70-785ACF692DF5.png)
 ### 10.	Збірка проєкту.
 ### 11.	Виставлення проєкту на github .
