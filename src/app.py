@@ -4,10 +4,11 @@ from database import db_connect, get_all, insertUser
 import jwt
 import datetime
 from mailing import sendEmail
+from jwt_secret_key import SECRET
 
 app = Flask(__name__)
 CORS(app)
-app.config['SECRET_KEY'] = 'tryengsecretkey'
+app.config['SECRET_KEY'] = SECRET
 
 DATA_BASE = db_connect()
 
