@@ -101,5 +101,4 @@
 ![](https://github.com/Oleh-Khomenko/Tryeng/blob/main/docs/images/5B396AF1-7E65-4BCB-A30D-202C337561D1.png)
 ### 9.	Написання юніт-тестів для запитів в БД.
 ![](https://github.com/Oleh-Khomenko/Tryeng/blob/main/docs/images/77312545-6F72-44AD-BE70-785ACF692DF5.png)
-### 10.	Збірка проєкту.
-### 11.	Завантаження проєкту на github .
+### 10.	Збірка та завантаження проєкту на github .
