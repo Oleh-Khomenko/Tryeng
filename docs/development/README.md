@@ -9,32 +9,32 @@
     Поморова Марія:
 ### 3.	Створення angular-проєкту.
 #### Установка і перший запуск Angular
-Angular застосовується для створення односторінкових додатків - SPA (Single Page Applications).
+    Angular застосовується для створення односторінкових додатків - SPA (Single Page Applications).
 
-Angular створює рендер програми, на відміну від підходу, коли весь контент завантажений в DOM, а JavaScript його змінює.
+    Angular створює рендер програми, на відміну від підходу, коли весь контент завантажений в DOM, а JavaScript його змінює.
 
-Для того, щоб запустити додаток потрібно:
+    Для того, щоб запустити додаток потрібно:
 
- 1. Встановити останню версію node.js з сайту nodejs.org.
- 2. Встановити або оновити npm: [sudo] npm install -g npm (sudo потрібно тільки на Mac / Linux).
- 3. Встановити angular-cli: [sudo] npm install -g @ angular / cli
+    1. Встановити останню версію node.js з сайту nodejs.org.
+    2. Встановити або оновити npm: [sudo] npm install -g npm (sudo потрібно тільки на Mac / Linux).
+    3. Встановити angular-cli: [sudo] npm install -g @ angular / cli
 
-Якщо у Вас раніше був встановлений angular-cli, то рекомендуємо його оновити:
+    Якщо у Вас раніше був встановлений angular-cli, то рекомендуємо його оновити:
 
-[Sudo] npm uninstall -g angular-cli @ angular / cli
+    [Sudo] npm uninstall -g angular-cli @ angular / cli
 
-npm cache clean
+    npm cache clean
 
-[Sudo] npm install -g @ angular / cli
+    [Sudo] npm install -g @ angular / cli
 
-4. У консолі запустити команду ng new my-first-app для створення нашого проекту на Angular.
-5. Перейти в директорію проекту і запустити сервер:
+    4. У консолі запустити команду ng new my-first-app для створення нашого проекту на Angular.
+    5. Перейти в директорію проекту і запустити сервер:
 
-cd my-first-app
+    cd my-first-app
 
-ng serve
+    ng serve
 
-6. Сервер за замовчуванням буде доступний по localhost: 4200, поміняти порт можна запустивши ng serve з параметром: ng serve --port YOURPORT
+    6. Сервер за замовчуванням буде доступний по localhost: 4200, поміняти порт можна запустивши ng serve з параметром: ng serve --port YOURPORT
 
 ### 4.	Створення бази даних (далі БД).
     4.1. Створення таблиць:
