@@ -3,6 +3,7 @@ from DB_CONN import db_conn
 
 
 def db_connect():
+    """Функція для зв'язку з базою даних"""
     return pymysql.connect(
         host=db_conn['host'],
         user=db_conn['user'],
@@ -13,12 +14,14 @@ def db_connect():
 
 
 def get_all(db, table):
+    """функція для отримання всіх даних з таблиці"""
     with db.cursor() as cur:
         cur.execute(f"select * from {table}")
         return list(cur)
 
 
 def insertUser(db, data):
+    """Функція запису в таблицю нового користувача"""
     try:
         with db.cursor() as cur:
             email = data['email']
@@ -31,6 +34,7 @@ def insertUser(db, data):
 
 
 def deleteUser(db, data):
+    """Функція для видалення рядка таблиці по емейлу(ключу)"""
     try:
         with db.cursor() as cur:
             email = data['email']

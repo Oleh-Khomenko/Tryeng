@@ -15,6 +15,7 @@ DATA_BASE = db_connect()
 
 @app.route('/login', methods=['POST'])
 def loginForm():
+    """Функція для авторизації коричтувача"""
     try:
         data = request.get_json(force=True)
         db_data = list(map(list, get_all(DATA_BASE, 'users')))
@@ -44,6 +45,7 @@ def loginForm():
 
 @app.route('/register', methods=['POST'])
 def registerForm():
+    """Функція для реєстрації користувача"""
     try:
         data = request.get_json(force=True)
 
@@ -56,6 +58,7 @@ def registerForm():
 
 @app.route('/checkTestsAnswers', methods=['POST'])
 def checkTestsAnswers():
+    """Функція для перевірки тестів з англійської"""
     data = dict(request.get_json(force=True)).popitem()
 
     test, answers = data
@@ -71,6 +74,7 @@ def checkTestsAnswers():
 
 @app.route('/feedback', methods=['POST'])
 def feedback():
+    """Функція для відправлення feedback-у на пошту модератора"""
     try:
         data = request.get_json(force=True)
 

@@ -3,6 +3,7 @@ from malingUserData import *
 
 
 def sendEmail(subject, body):
+    """Функція для відправки емейла"""
     with smtplib.SMTP('smtp.gmail.com', '587') as smtp:
         smtp.ehlo()
         smtp.starttls()
