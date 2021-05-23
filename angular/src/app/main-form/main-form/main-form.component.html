@@ -79,7 +79,7 @@
     <p style="padding-top: 40px; margin-bottom: 3px">E-mail</p>
     <input class="feedback-email" type="email" placeholder="example@site.com" [(ngModel)]="feedback_email">
     <p style="padding-top: 20px">Ваше питання</p>
-    <input class="feedback-text" type="text" [(ngModel)]="feedback_text">
+    <input class="feedback-text" type="text" placeholder="Lorem ipsum dolor sit amet." [(ngModel)]="feedback_text">
   </div>
   <p *ngIf="sendState.state == 1" style="color: lawngreen; margin-bottom: -40px; margin-top: 10px">{{sendState.message}}</p>
   <p *ngIf="sendState.state == 2" style="color: red; margin-bottom: -40px; margin-top: 10px">{{sendState.message}}</p>
