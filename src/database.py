@@ -28,3 +28,14 @@ def insertUser(db, data):
         return 'ok'
     except Exception as e:
         return str(e)
+
+
+def deleteUser(db, data):
+    try:
+        with db.cursor() as cur:
+            email = data['email']
+            cur.execute(f"""DELETE FROM users WHERE email='{email}'""")
+            db.commit()
+        return 'ok'
+    except Exception as e:
+        return str(e)
