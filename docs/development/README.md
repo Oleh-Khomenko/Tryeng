@@ -25,13 +25,16 @@
     7.4. Створення сторінки з переліком тестів.
 ![](https://github.com/Oleh-Khomenko/Tryeng/blob/main/docs/images/595DF5C1-55E5-4939-9971-A0CA96DEF692.png)
     7.5. Створення сторінок з тестами.
-![](https://github.com/Oleh-Khomenko/Tryeng/blob/main/docs/images/595DF5C1-55E5-4939-9971-A0CA96DEF692.png)
+![](https://github.com/Oleh-Khomenko/Tryeng/blob/main/docs/images/A56F0E45-8811-4C51-924F-424A9A411B4D.png)
+![](https://github.com/Oleh-Khomenko/Tryeng/blob/main/docs/images/DDA2E2C4-9B15-4064-94BC-923A120E180F.png)
     7.6. Додавання форми зворотнього зв‘язку на головній сторінці.
 ![](https://github.com/Oleh-Khomenko/Tryeng/blob/main/docs/images/2D4D6A66-05C0-483E-BBB4-52BEC37411C7.png)
 ### 8.	Backend 
     8.1. Реалізація відправки feedback-у на електронну пошту модератора.
     8.2. Реалізація шифрування даних користувача за допомогою jwt-бібліотеки.
+![](https://github.com/Oleh-Khomenko/Tryeng/blob/main/docs/images/CF5C610F-7F66-46FF-B69B-791E97564BC3.png)
     8.3. Перевірка тестових завдань.
 ### 9.	Написання юніт-тестів для запитів в БД.
+![](https://github.com/Oleh-Khomenko/Tryeng/blob/main/docs/images/77312545-6F72-44AD-BE70-785ACF692DF5.png)
 ### 10.	Збірка проєкту.
 ### 11.	Виставлення проєкту на github .
