@@ -40,11 +40,11 @@
 
 ### 4.	Створення бази даних (JawsDB MySQL).
 #### 4.1. Створення таблиць:
-	  •	articles
-	  •	future_simple
-	  •	past_simple
-	  •	present_simple
-	  •	users
+    •articles
+    •future_simple
+    •past_simple
+    •present_simple
+    •users
 #### 4.2. Занесення даних в таблиці.
 ### 5.	Створення flask-проєкту.
     pip install flask
