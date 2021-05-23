@@ -49,7 +49,7 @@
 ### 5.	Створення flask-проєкту.
     pip install flask
     
-    Мінімальна flask-програма:
+Мінімальна flask-програма:
     
     from flask import Flask
     app = Flask(name)
