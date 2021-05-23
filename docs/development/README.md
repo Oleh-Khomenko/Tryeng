@@ -15,7 +15,9 @@
 
     Для того, щоб запустити додаток потрібно:
 
-    1. Встановити останню версію node.js з сайту ![nodejs](nodejs.org)
+    1. Встановити останню версію node.js з сайту:
+   ![nodejs](nodejs.org)
+    
     2. Встановити або оновити npm: [sudo] npm install -g npm (sudo потрібно тільки на Mac / Linux).
     3. Встановити angular-cli: [sudo] npm install -g @ angular / cli
 
