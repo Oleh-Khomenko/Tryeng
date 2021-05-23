@@ -61,6 +61,8 @@
     if name == 'main':
         app.run()
 ### 6.	Написання серверу і його зв‘язку з БД.
+[database.py](https://github.com/Oleh-Khomenko/Tryeng/blob/main/src/database.py)
+[app.py](https://github.com/Oleh-Khomenko/Tryeng/blob/main/src/app.py)
 ### 7.	Створення angular-компонентів
     7.1. Створення реєстраційної форми та форми авторизації.
 ![](https://github.com/Oleh-Khomenko/Tryeng/blob/main/docs/images/F6CE6B00-2593-4A7A-84B6-E3342AF1AE37.png)
