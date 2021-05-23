@@ -25,7 +25,8 @@
     7.4. Створення сторінки з переліком тестів.
 ![](https://github.com/Oleh-Khomenko/Tryeng/blob/main/docs/images/595DF5C1-55E5-4939-9971-A0CA96DEF692.png)
     7.5. Створення сторінок з тестами.
-![](https://github.com/Oleh-Khomenko/Tryeng/blob/main/docs/images/595DF5C1-55E5-4939-9971-A0CA96DEF692.png)
+![](https://github.com/Oleh-Khomenko/Tryeng/blob/main/docs/images/A56F0E45-8811-4C51-924F-424A9A411B4D.png)
+![](https://github.com/Oleh-Khomenko/Tryeng/blob/main/docs/images/DDA2E2C4-9B15-4064-94BC-923A120E180F.png)
     7.6. Додавання форми зворотнього зв‘язку на головній сторінці.
 ![](https://github.com/Oleh-Khomenko/Tryeng/blob/main/docs/images/2D4D6A66-05C0-483E-BBB4-52BEC37411C7.png)
 ### 8.	Backend 
